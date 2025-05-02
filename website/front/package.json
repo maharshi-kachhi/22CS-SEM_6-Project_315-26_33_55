@@ -1,0 +1,48 @@
+{
+  "name": "front",
+  "proxy": "http://localhost:8080",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@clerk/clerk-react": "^5.24.1",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
+    "cra-template": "1.2.0",
+    "dotenv": "^16.4.7",
+    "lucide-react": "^0.474.0",
+    "mdb-react-ui-kit": "^9.0.0",
+    "nodemon": "^3.1.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^7.1.4",
+    "react-scripts": "5.0.1",
+    "respinner": "^4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
